@@ -5,8 +5,19 @@
 
 // world.sayHello(root)
 
-import notExistSample from "../src/basic/notExist"
-import primitiveSample from "../src/basic/primitive"
+// import notExistSample from "../src/basic/notExist"
+// import primitiveSample from "../src/basic/primitive"
+// import
 
-primitiveSample()
-notExistSample()
+// primitiveSample()
+// notExistSample()
+
+import { logMessage } from "../src/function/basic"
+import { isUserSignedIn, isUserSignedIn2, sumProductsPrice, logMessage2 } from "../src/function/parameters"
+
+logMessage("Type Script!!")
+isUserSignedIn("ABC", "あああああああああ")
+isUserSignedIn2("ABC")
+const sum = sumProductsPrice(100, 200, 300, 400, 500)
+console.log("@@@@@@@@@@@@@@@@@@", sum)
+logMessage2("メッセージ")
