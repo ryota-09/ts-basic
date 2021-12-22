@@ -12,12 +12,18 @@
 // primitiveSample()
 // notExistSample()
 
-import { logMessage } from "../src/function/basic"
-import { isUserSignedIn, isUserSignedIn2, sumProductsPrice, logMessage2 } from "../src/function/parameters"
+// import { logMessage } from "../src/function/basic"
+// import { isUserSignedIn, isUserSignedIn2, sumProductsPrice, logMessage2 } from "../src/function/parameters"
 
-logMessage("Type Script!!")
-isUserSignedIn("ABC", "あああああああああ")
-isUserSignedIn2("ABC")
-const sum = sumProductsPrice(100, 200, 300, 400, 500)
-console.log("@@@@@@@@@@@@@@@@@@", sum)
-logMessage2("メッセージ")
+// logMessage("Type Script!!")
+// isUserSignedIn("ABC", "あああああああああ")
+// isUserSignedIn2("ABC")
+// const sum = sumProductsPrice(100, 200, 300, 400, 500)
+// console.log("@@@@@@@@@@@@@@@@@@", sum)
+// logMessage2("メッセージ")
+
+import objectSample from "../src/object/object"
+import typeAliasSample from "../src/object/alias"
+
+objectSample()
+typeAliasSample()
