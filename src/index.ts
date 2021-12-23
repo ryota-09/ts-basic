@@ -22,8 +22,17 @@
 // console.log("@@@@@@@@@@@@@@@@@@", sum)
 // logMessage2("メッセージ")
 
-import objectSample from "../src/object/object"
-import typeAliasSample from "../src/object/alias"
+// import objectSample from "../src/object/object"
+// import typeAliasSample from "../src/object/alias"
 
-objectSample()
-typeAliasSample()
+// objectSample()
+// typeAliasSample()
+// import arraySample from "../src/array/Array";
+// import tupleSample from '../src/array/tuple'
+
+// arraySample();
+// tupleSample();
+
+import genericsBasicSample from "../src/generics/basic"
+
+genericsBasicSample()
